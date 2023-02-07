@@ -20,7 +20,7 @@ white "甬哥Gitlab项目  ：gitlab.com/rwkgyg"
 white "甬哥blogger博客 ：ygkkk.blogspot.com"
 white "甬哥YouTube频道 ：www.youtube.com/c/甬哥侃侃侃kkkyg"
 yellow "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-[[ -e /etc/hosts ]] && grep -qE '^ *172.65.251.78 gitlab.com' /etc/hosts || echo -e '\n172.65.251.78 gitlab.com' >> /etc/hosts
+#[[ -e /etc/hosts ]] && grep -qE '^ *172.65.251.78 gitlab.com' /etc/hosts || echo -e '\n172.65.251.78 gitlab.com' >> /etc/hosts
 [[ $EUID -ne 0 ]] && su='sudo' 
 lsattr /etc/passwd /etc/shadow >/dev/null 2>&1
 chattr -i /etc/passwd /etc/shadow >/dev/null 2>&1
