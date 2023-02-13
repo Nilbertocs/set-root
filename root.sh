@@ -16,9 +16,9 @@ echo -e "${bblue} ░██ ██       ${plain} ░██ ██        ░█
 echo -e "${bblue} ░██ ░${plain}██       ░██ ░██       ░██ ░██          ░${red}██         ░██    ░░██${plain}"
 echo -e "${bblue} ░${plain}██  ░░██     ░██  ░░██     ░██  ░░${red}██        ░██          ░██ ██ ██${plain} "
 green "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" 
-white "甬哥Gitlab项目  ：gitlab.com/rwkgyg"
+white "甬哥Github项目  ：github.com/yonggekkk"
 white "甬哥blogger博客 ：ygkkk.blogspot.com"
-white "甬哥YouTube频道 ：www.youtube.com/c/甬哥侃侃侃kkkyg"
+white "甬哥YouTube频道 ：www.youtube.com/@ygkkk"
 yellow "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 #[[ -e /etc/hosts ]] && grep -qE '^ *172.65.251.78 gitlab.com' /etc/hosts || echo -e '\n172.65.251.78 gitlab.com' >> /etc/hosts
 [[ $EUID -ne 0 ]] && su='sudo' 
