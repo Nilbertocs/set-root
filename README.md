@@ -1,10 +1,9 @@
-### 获取Root权限，可改root密码的一键脚本
+1. Erhalten Sie Root-Berechtigung
+2. Ein-Klick-Skript zum Ändern des Root-Passworts
 
-一键脚本
+Ein-Klick-Skript
 ```
 wget -N https://gitlab.com/rwkgyg/vpsroot/raw/main/root.sh && bash root.sh
 ```
-
-相关说明请查看[甬哥博客](https://ygkkk.blogspot.com/2022/02/githubvpsrootrooteuservhax.html)
 
 
